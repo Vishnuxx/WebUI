@@ -1,0 +1,49 @@
+  *{
+    margin:0px;
+    padding:0px;
+    background:#e0e0e0;
+  }
+  .headings{
+  background: transparent;
+  }
+  #heading{
+  background: transparent;
+  color:white;
+  }
+  #appbar{
+   background:#5352ed;
+   height:8vh;
+   min-height:50px;
+   box-shadow: 0px 4px 8px 67px grey;
+   z-index: 1;
+ }
+  #navbar {
+ background-color:#5352ed;
+ height: 8vh;
+ min-height:50px;
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ box-shadow: 0px 0px 6px 0.1px grey;
+ z-index: 1;
+ }
+  #create{
+  background:#70a1ff;
+  border:none;
+  padding:10px 10px;
+  margin:4px 4px;
+  border-radius:10px;
+  color:white;
+  position: center;
+  float:right;
+}
+  #create:active{
+  transform:scale(0.98);
+  
+}
+  #editor{
+  background: white;
+  height:84vh;
+}
+

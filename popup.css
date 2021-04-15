@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #FFF;
+    color: #000;
+    font-family:'Raleway';
+    font-size: 15px;
+    
+}
+
+#pop-up-menu{
+    display: none;
+    position: absolute;
+    padding: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px rgba(145, 143, 143, 0.94);
+    border-radius: 20px;
+
+}
+
+
+.elements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+
+
+.field{
+    
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding:4px;
+    box-shadow: inset 4px 4px 5px #cbced1,
+        inset -3px -3px 5px #ffffff;
+    
+    
+}
+
+.btn{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 0%;
+    margin-top: 5%;
+    width:100%;
+    
+} 
+
+#cancel,
+#apply,
+#addChild{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+
+#apply{
+    background-color: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px #ffffff;
+    color: #fff;
+}
+
+#apply:active{
+  transform: scale(0.90);
+}
+
+#cancel:active{
+  transform:scale(0.90);
+}
+
+#addChild:active {
+  transform: scale(0.90);
+}
+
+#cancel{
+    background-color:#d1c3c3;
+     box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px #ffffff;
+    color: #4b4848;
+}
+
+#addChild{
+  background-color: #f39c12;
+  box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
